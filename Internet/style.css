@@ -1,0 +1,171 @@
+#wrapper {
+    width: 970px;
+    margin: 0 auto;
+    padding: 0;
+    background: linear-gradient(#e3e3e3, white);
+    font-family: sans-serif;
+}
+.textformat {
+    margin: 5px;
+}
+.blueheadings {
+    color: #2c6b9f;
+}
+.ivory {
+    color: #09c2dd;
+}
+button {
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    box-shadow: 3px 3px 1px grey;
+    width: 98%;
+    border-style: none;
+    margin: 3px;
+}
+    header>img {
+        width: 120px;
+        height: auto;
+        margin-bottom: -35px;
+    }
+    header>h1 {
+        display: inline-block;
+        margin: 5px;
+        font-size: 40px;
+        font-weight: normal;
+    }
+    header>p {
+        background: linear-gradient(#2d6a9f, #5283aa, #28679d);
+        font-size: 36px;
+        color: #fafbfd;
+        margin: 3px 0;
+        padding: 15px 5px;
+    }
+
+    nav {
+        display: inline-block;
+        width: 18%;
+        vertical-align: top;
+        padding: 5px;
+    }
+
+        #topnav {
+            width: 100%;
+            padding-bottom: 20px;
+            padding-right: 5px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid grey;
+        }
+            #topnav>h5>span {
+                color: red;
+            }
+            #topnav>h5 {
+                margin: 10px 0;
+            }
+            #topnav>p {
+                font-size: 12px;
+                font-weight: bold;
+            }
+            #but1 {
+                background: linear-gradient(#6599c1, #346c9b);
+            }
+            #but2 {
+                background: linear-gradient(#e9ac5e, #ee7403);
+            }
+        #bottomnav {
+            padding: 20px 0;
+            background-image: url("images/ad_background.png")
+        }
+            #bottomnav>h4 {
+                color: white;
+                text-align: center;
+                font-size: 20px;
+                font-weight: 300;
+                margin: 10px;
+            }
+            #bottomnav>img {
+                width: 40%;
+                height: auto;
+                margin: 0 auto;
+                display: block;
+            }
+            #but3 {
+                display: block;
+                background: linear-gradient(#7cd0de, #0ec1dd);
+                width: 85%;
+                margin: 20px auto;
+            }
+    
+    main {
+        width: 75%;
+        margin-left: 20px;
+        display: inline-block;
+    }
+        #maintop {
+            position: relative;
+            width: 100%;
+            padding-bottom: 50px;
+            border-bottom: 2px solid grey;
+        }
+            #maintop>a>img {
+                width: 17px;
+                height: auto;
+            }
+            aside {
+                display: inline-block;
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 2px 10px 2px 2px;
+                width: 34%;
+                height: auto;
+            }
+                aside>img {
+                    width: 50px;
+                    height: auto;
+                }
+                #contactinfo {
+                    display: inline-block;
+                    margin: 2px 5px;
+                    width: 70%
+                }
+                #contactinfo>h4 {
+                    font-size: 26px;
+                    margin: 2px 5px;
+                    display: inline-block;
+                }
+                #contactinfo>h6 {
+                    margin: 2px 5px;
+                    display: inline-block;
+                }
+
+        main>h4 {
+            padding: 10px 0;
+            font-size: 22px;
+            margin: 10px 0;
+        }
+        main>img {
+            display: block;
+            width: 50%;
+            margin: 5px auto;
+        }
+
+        #bottombox {
+            border: 3px solid #0087DD;
+            padding: 15px;
+            margin-top: 30px;
+        }
+            #bottombox>img {
+                width: 20%;
+                height: auto;
+            }
+            article {
+                display: inline-block;
+                vertical-align: top;
+                width: 75%;
+                margin: 5px auto;
+            }
+                article>h4 {
+                    font-size: 22px;
+                }

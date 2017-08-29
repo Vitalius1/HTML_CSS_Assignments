@@ -1,0 +1,108 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+body{
+ background: linear-gradient(#664103, #e2dcd0);
+}
+
+#wrapper{
+ width: 900px;
+ height: 900px;
+ background-color: blue;
+ margin: 0px auto;
+ padding: 15px;
+ border: 5px solid blue;
+}
+
+    #purple1{
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    display: inline-block;
+    border-radius: 25px;
+ 
+}
+    #righthead{
+    display: inline-block;
+    vertical-align: bottom; 
+    margin-left: 7px;
+    }
+
+        .small2purples{
+        display: inline-block;
+        height: 120px;
+        }
+            .purple2{
+            width: 500px;
+            height: 60px;
+            background-color: purple;
+            margin-bottom: 10px;
+            vertical-align: top;
+            }
+            .purple3{
+            width: 300px;
+            height: 30px;
+            background-color: purple;
+            margin-bottom: 20px;
+            vertical-align: top;
+            }
+
+        #small6greens{
+        display: inline-block;
+        vertical-align: bottom;
+        }
+
+            .greens{
+            width: 101px;
+            height: 40px;
+            background-color: green; 
+            display: inline-block;
+            margin: 0px 10px 0px 0px;
+            }
+
+    #greenbig{
+    height: 450px;
+    width: 200px;
+    background-color: green;
+    display: inline-block;
+    margin-top: 15px;
+    vertical-align: top;
+    }
+
+    #right{
+    display: inline-block;
+    width: 684px;
+    margin-top: 15px;
+    margin-left: 7px;
+    }
+
+        .redbig{
+        height: 300px;
+        width: 680px;
+        display: inline-block;
+        background-color: red;
+        margin-bottom: -4px;
+        }
+        .red{
+        height: 300px;
+        width: 340px;
+        display: inline-block;
+        background-color: red;
+        }
+
+        .grey{
+            height: 300px;
+            width: 340px;
+            display: inline-block;
+            background-color: blue;
+        }
+        #bottom{
+            height: 50px;
+            width: 684px;
+            float: right;
+            background-color: orangered;
+            margin-top: 15px;
+        }

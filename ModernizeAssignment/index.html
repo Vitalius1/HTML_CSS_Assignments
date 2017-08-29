@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Exam Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('img').fadeIn(4000); //Fades the main image on page as soon as the page is loaded
+            
+            $('#content>article>div>p').hide();
+            $('#content>article>div>h1').hide();
+           
+            $('#content>article>img').hover(
+                function () {
+                    $('#content>article>div>p').slideDown(2000);
+                }, function () {
+                    $('#content>article>div>p').slideUp(2000);
+                }
+            );
+            $('#content>article>img').hover(
+                function () {
+                    $('#content>article>div>h1').slideDown(1000);
+                }, function () {
+                    $('#content>article>div>h1').slideUp(1000);
+                }
+            );
+
+            $('nav>a').click(function() {
+                alert("SORRY Nothing to see here it's just a test page :)))");
+            });
+
+            $('button').click(function(){
+                $('#center p').after("<p class='redtext'>Sorry!!! We don's sell anything</p>");
+            });
+
+            
+
+
+
+
+
+        });
+    </script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <img src="modernize/logo.png" alt="Logo picture">
+            <p class="textformat">Call Us : (66)8 234 678</p>
+        </header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Blog &#8811</a>
+            <a href="">Portfolio &#8811</a>
+            <a href="">Shortcodes &#8811</a>
+            <a href="">Features &#8811</a>
+            <a href="">Contact</a>
+        </nav>
+        <img src="modernize/main_pic.png" alt="Main Picture">
+        <div id="content">
+            <article>
+                <img src="modernize/content_icon1.png" alt="Icon 1">
+                <div>
+                    <h1 class="orange">Ridiculus Ornare</h1>
+                    <p class="textformat">Served in a 16-ounce pint glass. Cloudy and dirty-peach-colored, topped with a thick</p>
+                </div>
+            </article>
+            <article>
+                <img src="modernize/content_icon2.png" alt="Icon 2">
+                <div>
+                    <h1 class="orange">Ipsum Purus</h1>
+                    <p class="textformat">Served in a 16-ounce pint glass. Cloudy and dirty-peach-colored, topped with a thick</p>
+                </div>
+            </article>
+            <article>
+                <img src="modernize/content_icon3.png" alt="Icon 3">
+                <div>
+                    <h1 class="orange">Tellus Quam</h1>
+                    <p class="textformat">Served in a 16-ounce pint glass. Cloudy and dirty-peach-colored, topped with a thick</p>
+                </div>
+            </article>
+            <article>
+                <img src="modernize/content_icon4.png" alt="Icon 4">
+                <div>
+                    <h1 class="orange">Sem Egestas</h1>
+                    <p class="textformat">Served in a 16-ounce pint glass. Cloudy and dirty-peach-colored, topped with a thick</p>
+                </div>
+            </article>
+        </div>
+        <div id="center">
+            <div>
+                <h1 class="textformat">Malty aromatics make their way</h1>
+                <p class="textformat">Lush feel on the palate, with creamy, smooth carbonation. Malt base is even, with the taste of dark overripe
+                    stone fruits, a distinct prune edge, and rounded juiciness, not overly sweet.</p>
+            </div>
+            <button>Buy Now</button>
+        </div>
+        <footer>
+            <h1 class="textformat">Portfolio</h1>
+            <a href="" class="orange"><i>View All Projects &#8594</i></a>
+            <div id="footer-articles">
+                <article class="article-size">
+                    <img src="modernize/portfolio1.png" alt="">
+                    <h1 class="orange">Built-in Shortcode</h1>
+                    <p class="textformat">Dry toward the finish, with a lingering alcohol warmth and spice, root and earth character, and a big
+                        yeasty smack at the very end.</p>
+                </article>
+                <article class="article-size">
+                    <img src="modernize/portfolio2.png" alt="">
+                    <h1 class="orange">New Page Builder</h1>
+                    <p class="textformat">Dry toward the finish, with a lingering alcohol warmth and spice, root and earth character, and a big
+                        yeasty smack at the very end.</p>
+                </article>
+                <article class="article-size">
+                    <img src="modernize/portfolio3.png" alt="">
+                    <h1 class="orange">Access Elements colors</h1>
+                    <p class="textformat">Dry toward the finish, with a lingering alcohol warmth and spice, root and earth character, and a big
+                        yeasty smack at the very end.</p>
+                </article>
+                <article class="article-size">
+                    <img src="modernize/portfolio4.png" alt="">
+                    <h1 class="orange">3 Cuatom Post Types</h1>
+                    <p class="textformat">Dry toward the finish, with a lingering alcohol warmth and spice, root and earth character, and a big
+                        yeasty smack at the very end.</p>
+                    <a href="">Back To Top</a>
+                </article>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

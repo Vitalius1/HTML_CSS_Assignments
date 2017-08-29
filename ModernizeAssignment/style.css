@@ -1,0 +1,164 @@
+.orange {
+    color: #C45E2C;
+    font-size: 18px;
+}
+.textformat {
+    color: #E4E4E4;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.redtext {
+    color: red;
+    font-size: 26px;
+}
+
+h1.textformat {
+    font-size: 24px;
+}
+main {
+    font-family: sans-serif;
+    background: black;
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+    header {
+        background: #1a1a1a;
+        widows: 100%;
+        position: relative;
+        padding: 0;
+    }
+        header>img {
+            width: 30%;
+            height: auto;
+            margin: 15px;
+        }
+        header>p {
+            margin: 10px;
+            position: absolute;
+            top: 25px;
+            right: 15px;
+            font-size: 18px;
+        }
+    nav {
+        width: 100%;
+        background: linear-gradient(#525252, #1C1C1C);
+        padding: 20px 0;
+    }
+        nav>a {
+            color: #97A5A5;
+            text-decoration: none;
+            padding: 0 20px;
+            border-right: 2px solid grey;
+            font-weight: 500;
+        }
+    main>img {
+        width: 100%;
+        display: block;
+        border-bottom: 5px solid #3B3B3B;
+        display: none;
+    }
+    #content {
+        background: #1a1a1a;
+        width: 100%;
+    }
+        #content>article {
+            padding: 15px;
+            width: 21.5%;
+            vertical-align: top;
+            display: inline-block;
+        }
+            #content>article>img {
+                width: 21%;
+                height: auto;
+                vertical-align: top;
+            }
+            #content>article>div>h1 {
+                margin: 10px 5px;
+                width: 95%;
+                display: inline-block;
+            }
+            #content>article>div>p {
+                margin: 5px;
+                width: 95%;
+                display: inline-block;
+            }
+            #content>article>div {
+                display: inline-block;
+                width: 76%;
+            }
+    #center {
+        padding: 30px;
+        background-image: url(modernize/black_stripes.png);
+    }
+        #center>div {
+            display: inline-block;
+            width: 70%;
+        }
+        #center>div>h1 {
+            font-size: 30px;
+            margin: 0 0 15px 0;
+            width: 75%;
+        }
+        #center>div>p {
+            margin: 0;
+            width: 75%;
+        }
+        button {
+            background: linear-gradient(#F3B083, #F5833B);
+            color: #FEFFFF;
+            border-radius: 7px;
+            border-style: none;
+            font-size: 18px;
+            padding: 15px 20px;
+            width: 15%;
+            margin-left: 120px;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 30px;
+        }
+    footer {
+        background: #1A1A1A;
+        padding: 20px 15px;
+    }
+        footer>h1 {
+            margin: 0;
+            display: inline-block;
+            width: 10%;
+        }
+        footer>a {
+            text-decoration: none;
+            margin-left: 71%;
+            font-size: 16px;
+        }
+        #footer-articles {
+            width: auto;
+            margin-top: 20px;
+        }
+
+            .article-size {
+                display: inline-block;
+                width: 23.5%;
+                margin: 0 5px;
+                padding: 0 0;
+                vertical-align: top;
+            }
+                .article-size>img {
+                    width: 99%;
+                    height: auto;
+                    border: 3px solid #363636;
+                }
+                .article-size>h1 {
+                    margin: 10px 0;
+                }
+                .article-size>p {
+                    margin: 0 0 20px;
+                }
+                .article-size>a {
+                    margin-left: 70%;
+                    font-size: 12px;
+                    text-decoration: none;
+                    color: #55666B;
+                }
+        /* The end */
